@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "lib": [
+            "es2019",
+            "dom"
+        ],
+        "baseUrl": ".",
+        "outDir": "build",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "types": [
+        "jest"
+    ],
+    "include": [
+        "src",
+        "index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "quotes": [
+        "error",
+        "double"
+    ]
+}
